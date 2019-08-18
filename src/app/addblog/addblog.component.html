@@ -1,0 +1,38 @@
+
+
+<div class="full_width_wrapper back_color_f1f1f1 full_padd_30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="add_pro_holder">
+                        
+                    <h3  class="mar_0 padd_bott_15">Add Blog</h3>
+                    <form (ngSubmit)="addblog(f)" #f="ngForm">
+                      <div class="input_box padd_bott_15">
+                          <label>Blog Title</label>
+                          <input type="text" name="blogHeading" [(ngModel)]="blogHeading" value="" class="input_box_style  form-control">
+                      </div>
+                      <div class="input_box padd_bott_15">
+                          <label>Blog content</label>
+                          <!--input type="text" name="blogContent" [(ngModel)]="blogContent"  value="" class="input_box_style form-control"-->
+                          <textarea name="blogContent" [(ngModel)]="blogContent"  value="" class="input_box_style form-control"></textarea>
+                      </div>
+
+                      <div class="input_box padd_bott_15">
+                          <label>Blog image</label>
+                        <input type="file" name="blogImg" (change)="onSelectedImg($event)" ngModel>
+                      </div>
+                      <div class="button_box">
+                          <input type="submit" value="Add Blog" class="btn back_color_e83d3c color_fff">
+                      </div>
+                  </form>
+                   <br><br> 
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+

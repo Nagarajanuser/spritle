@@ -1,0 +1,27 @@
+
+
+<div class="full_width_wrapper back_color_f1f1f1 full_padd_30">
+  <div class="container">
+    <div class="row">
+
+        
+    <div class="col-md-12"  *ngFor="let blogListArrayIn of blogListArrayComp">
+        <a routerLink="/blog/{{blogListArrayIn._id}}"> 
+            <div class="blogs_holder">
+                <div class="blogs_holder_left">
+                    <img src="{{blogListArrayIn.blogImgPath}}">
+                </div>
+                <div class="blogs_holder_right">
+                    <h1 class="mar_0 padd_bott_10"></h1>
+                    <p class="mar_0">{{blogListArrayIn.blogContent}}</p>
+                </div>
+                
+                <div class="clear"></div>
+            </div>
+        </a>
+      </div>
+
+
+  </div>
+  </div>
+</div>

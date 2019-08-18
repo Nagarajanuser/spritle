@@ -1,0 +1,27 @@
+<div class="full_width_wrapper back_color_e83d3c">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <div class="head_menu">
+      <ul class="nav navbar-nav">
+          <li><a routerLink="/">Home</a></li>
+          <li *ngIf="userSer.isLoggedIn()"><a routerLink="/addblog">Write interesting today</a></li>
+          <li *ngIf="!userSer.isLoggedIn()"><a routerLink="/login">Write interesting today</a></li>
+          <li><a routerLink="/blogs">Blogs</a></li>
+         
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6">
+      <div class="head_menu">
+        <ul class="nav navbar-nav nav_right">
+            
+            <li><a routerLink="/login">Login</a></li>
+            <li *ngIf="!userSer.isLoggedIn()"><a routerLink="/signup">Sign Up</a></li>
+            <li *ngIf="userSer.isLoggedIn()"><a (click)="doLogout()">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

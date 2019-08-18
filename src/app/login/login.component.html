@@ -1,0 +1,37 @@
+
+
+
+
+
+<div class="full_width_wrapper back_color_f1f1f1 full_padd_30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="add_pro_holder">
+                        
+                    <h3  class="mar_0 padd_bott_15">Login</h3>
+                    <form (ngSubmit)="login(f)" #f="ngForm">
+
+                      <div class="input_box padd_bott_15">
+                          <label>Enter your Email id</label>
+                          <input type="text" name="userEmail" [(ngModel)]="userEmail" value="" class="input_box_style  form-control">
+                      </div>
+
+                      <div class="input_box padd_bott_15">
+                          <label>Enter your password</label>
+                          <input type="password" name="userPassword" [(ngModel)]="userPassword" value="" class="input_box_style  form-control">
+                      </div>
+                      
+                      <div class="button_box">
+                          <input type="submit" value="Login" class="btn back_color_e83d3c color_fff">
+                      </div>
+                      <h3>{{msg}}</h3>
+                  </form>
+                   <br><br> 
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

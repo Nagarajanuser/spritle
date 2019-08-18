@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #fff;
+}
+.full_width_wrapper{
+    width:100%;
+}
+.full_padd_50{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.full_padd_40{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.full_padd_30{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.back_color_e83d3c{
+    background: #e83d3c;
+}
+.back_color_f1f1f1{
+    background: #f1f1f1;
+}
+.back_color_fff{
+    background: #fff;
+}
+.back_color_f1f1f1{
+    background: #f1f1f1;
+}
+.back_color_f7f7f7{
+    background: #f7f7f7;
+}
+.back_color_f8f8f8{
+    background: #f8f8f8;
+}
+.color_e83d3c{
+    color: #e83d3c;
+}
+.color_fff{
+    color:#fff;
+}
+.mar_0{
+    margin:0px;
+}
+.padd_bott_40{
+    padding-bottom:40px;
+}
+.padd_bott_30{
+    padding-bottom:30px;
+}
+.padd_bott_20{
+    padding-bottom:20px;
+}
+.padd_bott_15{
+    padding-bottom:15px;
+}
+.padd_bott_10{
+    padding-bottom:10px;
+}
+
+.mar_bott_30{
+    margin-bottom:30px;
+}
+
+.nav_right{
+    width:100%;
+}
+.nav_right li{
+    float: right !important;
+}
+
+.head_menu ul li{
+    display:inline-block;
+}
+.head_menu ul li a{
+    color:#fff;
+}
+.head_menu ul li a:hover{
+    color:#e83d3c;
+}
+.head_menu ul li a.active{
+    color:#e83d3c;
+}
+.odd{
+    background: #fdfdfd;
+}
+.even{
+    background: #f1f1f1;
+}
+
+.input_box_style{
+    border:1px solid #e83d3c !important;
+    border-radius:0px !important;
+}
+
+.add_pro_holder{
+    width:100%;
+    background-color: #fff;
+    padding:15px;
+    border-radius:4px;
+}
+.page_table table{
+    width:100%;
+}
+.page_table td{
+    border:1px solid#e83d3c;
+    padding:5px 10px;
+    text-align: center;
+}
+.tabl_head{
+    font-weight:bold;
+    /*color: #e83d3c; */
+    background-color:#e83d3c;
+    color:#fff;
+}
+.search_holder{
+    width:100%;
+}
+
+.blogs_holder{
+    width:100%;
+    margin:15px 0px;
+    background-color: #fff;
+    display:inline-block;
+    border-radius:4px;
+    overflow:hidden;
+}
+.blogs_holder_left{
+    width:250px;
+    overflow:hidden;
+    float:left;
+}
+.blogs_holder_left img{
+    width:100%;
+}
+.blogs_holder_right{
+    width:calc(100% - 250px);
+    float:left;
+    padding:15px 15px 15px 15px;
+}
+.blogs_holder_right h1{
+   font-size:18px;
+}
+.blogs_holder_right p{
+    text-align: justify;
+ }
+ 
+ .blog_img_holder img{
+     width:100%;
+ }
+ .back_white_holder{
+    background-color: #fff;
+    padding:15px;
+     border-radius:4px;
+     width:100%;
+ }
